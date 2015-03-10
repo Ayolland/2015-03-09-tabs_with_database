@@ -1,0 +1,58 @@
+div#about {}
+  
+nav {
+    position: absolute;
+    background: lightgray;
+    top: 49px;
+}
+
+ul {
+    margin: 0;
+    padding-left: 5PX;
+}
+
+.tab_content{
+  position: absolute; 
+  width: 95%;
+  height: 550px;
+  top: 75px;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+div#contents {
+    width: 100%;
+    background: lightblue;
+}
+
+div#general_info {
+    background: lightgreen;
+    /* visibility: hidden; */ 
+    z-index: 4;
+}
+
+div#technical_specs {
+    background: lightsalmon;
+    z-index: 1;
+}
+
+div#where_to_buy {
+    background: lightyellow;
+    z-index: 1;
+}
+
+div#admin {
+    background: lightgray;
+    z-index: 1;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: -5px;
+    margin-right: 10px;
+    padding: 5px;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-radius: 6px 6px 0px 0px;
+}

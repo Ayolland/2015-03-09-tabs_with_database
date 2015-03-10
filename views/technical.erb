@@ -1,0 +1,6 @@
+<h1>Technical Specs</h1>
+<ul>
+  <% @all_products.each do |product|%>
+    <li><%= product.id.to_s + ": " + product.technical_specs %></li>
+  <% end %>
+</ul>

@@ -1,0 +1,6 @@
+<h1>General Info</h1>
+<ul>
+  <% @all_products.each do |product|%>
+    <li><%= product.id.to_s + ": " + product.general_info %></li>
+  <% end %>
+</ul>
